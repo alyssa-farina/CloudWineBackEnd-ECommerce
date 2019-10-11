@@ -6,143 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+#winge glasses category
+Product.create(name: "Accio Wine HP Wine Glass", description: "Accio Wine! This is a spell we all need. Sip your favorite wines, reds, or even a glass of butterbeer out of this Harry Potter themed stemless glass! The shape of this glass makes it great for wine, signature cocktails, or even craft beers! BarConic® Stemless Wine glasses hold 17 oz when filled to the rim. They are made of real glass and can be used for serving white or red wines. The image is screen printed on the glass and can be washed. We do not recommend scrubbing with abrasive materials.", img: "https://i.etsystatic.com/7785093/r/il/b0a354/1401961087/il_1588xN.1401961087_7qkb.jpg", price: 9.75, category: "wineglasses")
 
-require 'faker'
-include Faker
+#wines category
+Product.create(name: "Château Ducru Beaucaillou 2016 Saint-Julien", description: "This wine conveys density but its richness is sublimated by the complex structure and beautiful ripe fruit. Its power comes from the structure as much as the fruit, promising a wine with an immensely long life ahead of it. Drink from 2025. K&L Wine Merchants.", img: "http://cdn.shopify.com/s/files/1/0150/0646/products/1_ca5b701a-f353-4baa-b2c5-d5380a293615_600x.jpg?v=1564489723", price: 210.00, category: "wines")
 
+#wine totes category
+Product.create(name: "SIP SIP HOORAY wine gift tote", description: "SIP SIP HOORAY! whatever you're celebrating, style it up with a bottle of bubbly wrapped in this handlettered wine tote! Printed in crisp black on unbleached linen canvas, our unique wine totes turn any bottle of wine into a thoughtful gift. Each wine tote bag features a drawstring close -- and is washable and reusable", img: "https://i.etsystatic.com/15790361/r/il/5e53e8/1715465323/il_1588xN.1715465323_gg8j.jpg", price: 14.50, category: "winetotes")
 
-images = ["https://images.pexels.com/photos/371102/pexels-photo-371102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/68740/diamond-gem-cubic-zirconia-jewel-68740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/1395306/pexels-photo-1395306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/266621/pexels-photo-266621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/356148/pexels-photo-356148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/998521/pexels-photo-998521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/1302307/pexels-photo-1302307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/1453008/pexels-photo-1453008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/1413420/pexels-photo-1413420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/1458867/pexels-photo-1458867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://i.etsystatic.com/18626368/r/il/63c0b8/1745906561/il_1588xN.1745906561_cwl6.jpg", 
-"https://images.pexels.com/photos/691046/pexels-photo-691046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/168927/pexels-photo-168927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/1232931/pexels-photo-1232931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/1670723/pexels-photo-1670723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/750148/pexels-photo-750148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/1395305/pexels-photo-1395305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/2010995/pexels-photo-2010995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-"https://images.pexels.com/photos/185489/pexels-photo-185489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/236900/pexels-photo-236900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/2062653/pexels-photo-2062653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/445986/pexels-photo-445986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/965995/pexels-photo-965995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/2219195/pexels-photo-2219195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
-"https://images.pexels.com/photos/277459/pexels-photo-277459.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+#wine art category
+Product.create(name: "Wine Wall Art Poster", description: "Flowchart poster that thoroughly records the perplexing world of wine. The intention of this print is to methodically record the primary varieties of red and white wine, telling the full story – from grape to glass. This collection illustrates the seventeen most common varieties of wine. Each type of wine is specific to certain regions of the world, which are all highlighted in the print. In addition, we've recognized nearly 150 of the most outstanding examples of specific wines found in each region.
+", img: "https://i.etsystatic.com/6858049/r/il/9bdde9/726042320/il_1588xN.726042320_a9mu.jpg", price: 25.00, category: "wineart")
 
-names = [
-"Accio Wine HP Wine Glass",
-"Dolpinitely Drunk Wine Glass",
-"Sip Happens Wine Glass",
-"Celeste",
-"Elena",
-"Olivia",
-"Cora",
-"Amelia",
-"Charlotte",
-"Isla",
-"Isabella",
-"Maia",
-"Aurora",
-"Amara",
-"Ava",
-"Rumi",
-"Penelope",
-"Evelyn",
-"Ophelia",
-"Rose",
-"Eleanor",
-"Violet",
-"Luna",
-"Arabella",
-"Hazel",
-"Imogen",
-"Esme",
-"Maeve",
-"Elizabeth",
-"Alice",
-"Audrey",
-"Adeline",
-"Genevieve",
-"Aurelia",
-"Thea",
-"Khaleesi",
-"Lucy",
-"Ivy",
-"Jane",
-"Emma",
-"Mia",
-"Eloise",
-"Claire",
-"Emilia",
-"Nora",
-"Iris",
-"Lydia",
-"Anna",
-"Astrid",
-"Lila",
-"Julia",
-"Sadie",
-"Elise",
-"Stella",
-"Isabel",
-"Scarlett",
-"Ada",
-"Evangeline",
-"Caroline",
-"Eliza",
-"Adelaide",
-"Matilda",
-"Aria",
-"Naomi",
-"Clara",
-"Phoebe",
-"Chloe",
-"Elodie",
-"Josephine",
-"Brielle",
-"Sienna",
-"Beatrice",
-"Molly",
-"Ella",
-"Mae",
-"Mila",
-"Allegro",
-"Hannah",
-"Celeste",
-"Seraphina",
-"Zoe",
-"Freya",
-"Sophia",
-"Maisie",
-"Gemma",
-"Willow",
-"Poppy",
-"Grace",
-"Margaret",
-"Madeline",
-"Emily",
-"Elena",
-"Daisy",
-"Maya",
-"Elsie",
-"Juliet",
-"Willa",
-"Ellie",
-"Jade",
-"Eliana",
-"Rebecca",
-"Zara",
-"Alexandra",
-"Evie",
-"Abigail"
-]
-
-40.times do 
-    Product.create(
-        name: names.sample,
-        description: "Hand-crafted with care and love. Made with vegan, organic, and sustainable materials.",
-        img: images.sample,
-        price: Faker::Commerce.price
-
-    )
-    end 
-     

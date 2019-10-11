@@ -1,6 +1,7 @@
 class OrdersController < ApplicationController
-  skip_before_action :authorized
-    def index
+  skip_before_action :authorized, only: [:create]
+  
+  def index
         @Orders = Order.all
         render json: @Orders
       end
@@ -24,7 +25,7 @@ class OrdersController < ApplicationController
       def create
         # byebug
         @order = Order.new(order_params)
-        @order.save
+        @order.save!
         render json: @order
       end
 
