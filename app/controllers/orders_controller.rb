@@ -1,7 +1,6 @@
 class OrdersController < ApplicationController
-  skip_before_action :authorized, only: [:create]
-  
-  def index
+  skip_before_action :authorized
+    def index
         @Orders = Order.all
         render json: @Orders
       end
