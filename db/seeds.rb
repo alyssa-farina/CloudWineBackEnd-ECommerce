@@ -5,7 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+User.destroy_all
+Order.destroy_all
 #winge glasses category
 Product.create(name: "Accio Wine HP Wine Glass", description: "Accio Wine! This is a spell we all need. Sip your favorite wines, reds, or even a glass of butterbeer out of this Harry Potter themed stemless glass! The shape of this glass makes it great for wine, signature cocktails, or even craft beers! BarConic® Stemless Wine glasses hold 17 oz when filled to the rim. They are made of real glass and can be used for serving white or red wines. The image is screen printed on the glass and can be washed. We do not recommend scrubbing with abrasive materials.", img: "https://i.etsystatic.com/7785093/r/il/b0a354/1401961087/il_1588xN.1401961087_7qkb.jpg", price: 9.75, category: "wineglasses")
     Product.create(name: "Accio Wine HP Wine Glass", description: "Accio Wine! This is a spell we all need. Sip your favorite wines, reds, or even a glass of butterbeer out of this Harry Potter themed stemless glass! The shape of this glass makes it great for wine, signature cocktails, or even craft beers! BarConic® Stemless Wine glasses hold 17 oz when filled to the rim. They are made of real glass and can be used for serving white or red wines. The image is screen printed on the glass and can be washed. We do not recommend scrubbing with abrasive materials.", img: "https://i.etsystatic.com/7785093/r/il/b0a354/1401961087/il_1588xN.1401961087_7qkb.jpg", price: 9.75, category: "wineglasses")
