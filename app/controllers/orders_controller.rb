@@ -1,5 +1,6 @@
 class OrdersController < ApplicationController
   skip_before_action :authorized
+
     def index
         @Orders = Order.all
         render json: @Orders
@@ -16,28 +17,28 @@ class OrdersController < ApplicationController
       end
     
 
-      def show
-        @order = Order.find(params[:id])
-        render json: @order
-      end
+      # def show
+      #   @order = Order.find(params[:id])
+      #   render json: @order
+      # end
 
       def create
         # byebug
         @order = Order.new(order_params)
-        @order.save!
+        # @order.save!
         render json: @order
       end
 
-      def destroy
-        @order = Item.find(params[:id])
-        render json: @order
-        @order.delete
-      end
+      # def destroy
+      #   @order = Item.find(params[:id])
+      #   render json: @order
+      #   @order.delete
+      # end
 
       private 
 
       def order_params
-        params.permit(:quantity, :product_id, :user_id)
+        params.require(:order).permit(:quantity, :product_id, :user_id)
       end
 
 end
