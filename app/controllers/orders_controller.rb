@@ -17,10 +17,10 @@ class OrdersController < ApplicationController
       end
     
 
-      # def show
-      #   @order = Order.find(params[:id])
-      #   render json: @order
-      # end
+      def show
+        @order = Order.find(params[:id])
+        render json: @order
+      end
 
       def create
         # byebug
