@@ -62,3 +62,13 @@ Product.create(name: "Framed Huge 3-Panel Red Wine Glass Wine Art", description:
 Product.create(name: "Wine is like duct tape Wine Art", description:"Wine truly is like duct tape...it fixes everything! This sign is done on a piece of wood stained new Ebony black with white lettering.", img: "https://i.etsystatic.com/12367120/r/il/878b80/1054847157/il_1588xN.1054847157_1jnw.jpg", price: 8, category: "wineart")
 Product.create(name: "Wine splash, Wine Art", description: "Wine art, Wine splash art, pouring wine, Gift for wine drinker. Red and White wine come together in a mouthwatering splash! These unique and original artwork are printed on authentic vintage early 1900's dictionary paper ", img: "https://i.etsystatic.com/9115019/r/il/b23fe8/945798216/il_1588xN.945798216_sz5k.jpg", price: 15, category: "wineart")
 Product.create(name: "Oh look its wine oclock wine art", description: "Well would ya look at that...its wine oclock! Hang this in your house to remind you that when you are having a bad day (or when you just want some wine) that it is, in fact, wine oclock", img: "https://i.etsystatic.com/9240961/r/il/4d9601/1374493691/il_1588xN.1374493691_n91r.jpg", price: 12, category: "wineart")
+
+
+
+Event.create(name: "Class: Wine 101", location: "1657 First Avenue New York, NEW YORK 10028", time: "7:30PM-9:30PM", date: "October 25, 2019 (Fri)", price: 55)
+Event.create(name: "Champagne Tasting with Blue", location: "462 Broadway New York, NY 10013", time: "8:00AM-6:00PM", date: "October 26, 2019 (Sat)", price: 795)
+Event.create(name: "NYC Vinos & Tapas Tour With A Sommelier", location: "Kenmare St., Lafayette St., and Cleveland Pl. New York, NY 10012", time: "3:00 PM - 5:30 PM", date: "October 26, 2019 (Sat)", price: 90)
+Event.create(name: "City Harvest Presents BID 2019: Studio 54", location: "125 West 18th Street New York, NY 10011", time: "7:00 PM - 10:00 PM", date: "October 29, 2019 (Tue)", price: 750)
+Event.create(name: "Wine Boot Camp: Natural Wines of the Northeast", location: "249 Centre Street New York, NY 10013", time: "6:30-7:30pm", date: "October 29, 2019 (Tue)", price: 49)
+Event.create(name: "NYC L'Apero Wine Trail", location: "West Village, NY, NY, 1004", time: "6:30 PM - 8:00 PM", date: "October 30, 2019 (Wed)", price: 90)
+Event.create(name: "19 Crimes Cabernet, Beringer Knights Cabernet and Sterling Merlot Tasting", location: "976 3rd Avenue Brooklyn, NY 11232", time: "4:00 PM - 7:00 PM", date: "October 31, 2019 (Thu)", price: 0)

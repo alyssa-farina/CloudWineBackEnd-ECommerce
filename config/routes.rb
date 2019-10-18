@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :events
   resources :orders
   resources :products
   resources :users, only: [:create, :update]
