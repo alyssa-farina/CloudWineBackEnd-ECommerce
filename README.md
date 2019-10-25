@@ -1,6 +1,6 @@
 # README
 
-# Cloud Wine was built as an E-Commerce site that allows users to browse products such as wines, wine glasses, wine tote bags, and wine art. It utilizes the Truity API to match the personality of a user to a specific wine, and once they are paired with a wine by taking a short quiz then they can enter Cloud Wine. The backend was built using Ruby and Ruby on Rails. 
+Cloud Wine was built as an E-Commerce site that allows users to browse products such as wines, wine glasses, wine tote bags, and wine art. It utilizes the Truity API to match the personality of a user to a specific wine, and once they are paired with a wine by taking a short quiz then they can enter Cloud Wine. The backend was built using Ruby and Ruby on Rails. 
 
 # Installation
 
