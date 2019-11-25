@@ -99,13 +99,13 @@ Product.create(name: "Kendall Jackson Vintner's Reserve Chardonnay", description
 
 
 
-Event.create(name: "Class: Wine 101", location: "1657 First Avenue New York, NEW YORK 10028", time: "7:30PM-9:30PM", date: "October 25, 2019 (Fri)", price: 55)
-Event.create(name: "Champagne Tasting with Blue", location: "40 Hudson Street New York, NY 10013", time: "5:00PM-8:00PM", date: "October 25, 2019 (Fri)", price: 0)
-Event.create(name: "NYC Vinos & Tapas Tour With A Sommelier", location: "Kenmare St., Lafayette St., and Cleveland Pl. New York, NY 10012", time: "3:00 PM - 5:30 PM", date: "October 26, 2019 (Sat)", price: 90)
-Event.create(name: "City Harvest Presents BID 2019: Studio 54", location: "125 West 18th Street New York, NY 10011", time: "7:00 PM - 10:00 PM", date: "October 29, 2019 (Tue)", price: 750)
-Event.create(name: "Wine Boot Camp: Natural Wines of the Northeast", location: "249 Centre Street New York, NY 10013", time: "6:30-7:30pm", date: "October 29, 2019 (Tue)", price: 49)
-Event.create(name: "NYC L'Apero Wine Trail", location: "West Village, NY, NY, 1004", time: "6:30 PM - 8:00 PM", date: "October 30, 2019 (Wed)", price: 90)
-Event.create(name: "19 Crimes Cabernet, Beringer Knights Cabernet and Sterling Merlot Tasting", location: "976 3rd Avenue Brooklyn, NY 11232", time: "4:00 PM - 7:00 PM", date: "October 31, 2019 (Thu)", price: 0)
+Event.create(name: "NYC Vinos & Tapas Tour With A Sommelier", location: "Soho / Nolita / Little Italy Kenmare St., Lafayette St., and Cleveland Pl. New York, NY 10012", time: "3:00PM-5:30PM", date: "December 7, 2019 (Sat)", price: 90)
+Event.create(name: "The Hidden California", location: "330 West 11th Street New York, NY 10011", time: "1:00 PM - 2:45 PM", date: "November 30, 2019 (Sat)", price: 69)
+Event.create(name: "New York Soho Wine Tasting Tour", location: "45 Mercer St, New York, NY 10013", time: "3:00 PM - 5:00 PM", date: "November 30, 2019 (Sat)", price: 95)
+Event.create(name: "Spain & Portugal - Classic Wines", location: "330 West 11th Street New York, NY 10011", time: "1:00 PM -2:45 PM", date: "December 7, 2019 (Sat)", price: 69)
+Event.create(name: "Big Bold Reds", location: "330 West 11th Street New York, NY 10011", time: "7:00PM-8:45PM", date: "December 13, 2019 (Fri)", price: 69)
+Event.create(name: "Italy - North to South", location: "330 West 11th Street New York, NY 10011", time: "4:00 PM - 5:45 PM", date: "December 14, 2019 (Sat)", price: 69)
+Event.create(name: "WINE LOVERS OF NYC", location: "210 W 94th St · New York, NY", time: "2:00 PM - 4:00 PM", date: "December 15, 2019 (Sun)", price: 45)
 
 
 
