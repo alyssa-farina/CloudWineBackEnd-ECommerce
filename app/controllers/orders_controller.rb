@@ -7,7 +7,7 @@ class OrdersController < ApplicationController
     
       def update
         @order = Order.find(params[:id])
-        @order.update(quantity: params[:quantity], product_id: params[:product_id], user_id: params[user_id])
+        @order.update(quantity: params[:quantity], product_id: params[:product_id], user_id: params[:user_id])
         if @order.save
           render json: @order, status: :accepted
         else
