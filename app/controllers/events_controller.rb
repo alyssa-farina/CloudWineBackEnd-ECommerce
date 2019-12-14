@@ -1,6 +1,7 @@
 class EventsController < ApplicationController
   skip_before_action :authorized, only: [:index, :show, :create]
-    def index
+    
+  def index
         @Events = Event.all
         render json: @Events
     end
